@@ -1,0 +1,23 @@
+body {
+  background-color: #ccff99;
+}
+h3 {
+  text-align: center;
+  color: 	#FF0000;
+}
+b {
+  color: blue;
+}
+h4 {
+  color: blue;
+  text-decoration: underline;
+}
+.Para {
+  color: green;
+}
+ol > li {
+  color: red;
+}
+ul > li {
+  color: blue;
+}

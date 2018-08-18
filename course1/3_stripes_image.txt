@@ -1,0 +1,22 @@
+// write your code here
+var img = new SimpleImage("me.png");
+w = img.getWidth();
+//print(img);
+print(w);
+for(var pixel of img.values()){
+    var x = pixel.getX();
+    var y = pixel.getY();
+    if (x<=100){
+        pixel.setRed(255);
+        img.setPixel(x,y,pixel);
+    }else if (x>100 && x<=200){
+        pixel.setGreen(255);
+        img.setPixel(x,y,pixel);
+}else  if (x > 200 && x <=300){
+        pixel.setBlue(255);
+        img.setPixel(x,y,pixel);
+}
+}
+print(img);
+
+
